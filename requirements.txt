@@ -1,5 +1,0 @@
-pygame
-numpy
-torch
-tqdm
-tensorboard
