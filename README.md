@@ -195,7 +195,7 @@ tensorboard
 python main.py
 ```
 
-如需运行训练：
+如需使用MCTS先运行训练：
 
 ```bash
 python Train.py
