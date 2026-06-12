@@ -17,7 +17,7 @@
 * 使用搜索算法实现 AI 对弈；
 * 进一步探索 MCTS 与神经网络自我对弈训练。
 
-![game_mode.png](screenshoots/game_mode.png)
+![game_mode.png](screenshots/game_mode.png)
 ---
 
 ## 2. 页面功能介绍
@@ -28,11 +28,11 @@
 * 试势：蒙特卡洛方法，需要先训练网络，但训练效果不佳，本人训练四天四夜才勉强与一层minimax匹敌，日后会进行改进
 * 强弈：将minimax结合神经网络进行改良,，并加入一些低级错误检测，可能效果略微好于深算
 
-![menu.png](screenshoots/menu.png)
+![menu.png](screenshots/menu.png)
 #### ai对弈
 + 可以选择两个ai进行对弈，进行观战
 
-![watch_mode.png](screenshoots/watch_mode.png)
+![watch_mode.png](screenshots/watch_mode.png)
 ### 功能
 目前项目已经实现或尝试实现以下功能：
 
@@ -200,7 +200,6 @@ python Train.py
 ```
 
 
-具体运行方式可能根据实际文件名略有不同。
 
 ---
 
@@ -240,7 +239,7 @@ python Train.py
 ---
 
 ## 9. AI 工具使用声明
-本项目的ui界面贪心ai和基础的minimax和MCTS为独立完成，后续优化使用了chatgpt和codex对minimax和MCTS进行了代码优化（成功由1000行优化到了2000行），ai辅助进行代码结构建议、调试思路分析、README 文档组织和算法解释整理。项目的核心规则逻均经过本人修改、测试和人工 Review。
+本项目的ui界面贪心ai和基础的minimax和MCTS为独立完成，后续优化使用了chatgpt和codex对minimax和MCTS进行了代码优化（成功由1000行优化到了2000行），ai辅助进行代码结构建议、调试思路分析、README 文档组织和算法解释整理。项目的核心规则逻辑均经过本人修改、测试和人工 Review。
 AI 工具主要用于辅助表达、整理思路和排查问题，项目主体实现与最终提交内容由本人负责。
 
 ---
