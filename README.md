@@ -196,7 +196,7 @@ python main.py
 如需运行训练：
 
 ```bash
-python train.py
+python Train.py
 ```
 
 
