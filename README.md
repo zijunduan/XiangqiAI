@@ -17,6 +17,7 @@
 * 使用搜索算法实现 AI 对弈；
 * 尝试进一步探索 MCTS 与神经网络自我对弈训练。
 
+![game_mode.png](screenshoots/game_mode.png)
 ---
 
 ## 2. 页面功能介绍
@@ -27,8 +28,11 @@
 * 试势：蒙特卡洛方法，需要先训练网络，但训练效果不佳，本人训练四天四夜才勉强与一层minimax匹敌，日后会进行改进
 * 强弈：将minimax结合神经网络进行改良，可能效果略微好于深算
 
+![menu.png](screenshoots/menu.png)
 #### ai对弈
 + 可以选择两个ai进行对弈，进行观战
+
+![watch_mode.png](screenshoots/watch_mode.png)
 ### 功能
 目前项目已经实现或尝试实现以下功能：
 
@@ -55,23 +59,24 @@
 ```text
 XiangqiAI/
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── .gitattributes
-├── main.py
-├── board.py
-├── rules.py
-├── ui.py
-├── sound.py
-├── ai.py
-├── alpha_mcts.py
-├── network.py
-├── Train.py
-├── eval_strength.py
-├── fonts/
-├── images/
-├── sounds/
-└── 趣事or进展/
+├── LICENSE
+├── main.py              # 项目入口，启动图形界面
+├── board.py             # 棋盘状态与基础操作
+├── rules.py             # 中国象棋规则与合法走法判断
+├── ui.py                # Pygame 图形界面
+├── sound.py             # 音效管理
+├── ai.py                # 搜索 AI 与局面评估
+├── alpha_mcts.py        # 蒙特卡洛树搜索 / AlphaZero 风格 MCTS 尝试
+├── network.py           # 神经网络模型结构
+├── Train.py             # 神经网络训练脚本
+├── eval_strength.py     # AI 强度评估脚本
+├── fonts/               # 字体资源
+├── images/              # 棋盘与棋子图片资源
+├── sounds/              # 音效资源
+├── screenshots/         #部分截图 
+└── 趣事or进展/           # 有趣记录
 ```
 
 ---
